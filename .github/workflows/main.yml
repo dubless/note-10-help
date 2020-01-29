@@ -1,0 +1,20 @@
+name: vicicious apk failure drill 
+
+on: [push]
+
+jobs:com.android.support.test.uiautomator:uiautomator
+Trace-back-ip.1.1.1.1.1.8/server/dubless/home/thecannarypack/com.android.support:loader/gotem/android.arch.persistence.room:common
+
+  build:
+    com.android.support.test.janktesthelper:janktesthelper
+
+    runs-on: ubuntu-latest
+ 
+    steps: 
+    - uses: actions/checkout@v2
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
